@@ -1,0 +1,5 @@
+/*On appel h1 pour lui appliquer l'attribut colo*/
+h1{
+    /*color attribut affectant la couleur*/
+    color: orange;
+}

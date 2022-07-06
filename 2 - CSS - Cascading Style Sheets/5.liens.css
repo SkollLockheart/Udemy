@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "Freshman";
+    src : url("fonts/Freshman.ttf")
+}
+
+.instructions{
+    font-family: Freshman;
+    font-weight: bold;
+    font-style: italic;
+} 
+/*text-décoration: none retire le underline*/
+.ingredients ul li a {
+    text-decoration: none;
+}
+/*Pseudo class avec ":"*/
+/*a:visited applique l'effet un fois le lien visité*/
+.ingredients ul li a:visited{
+    color: black
+}
+/*a:hover applique l'effet lorsque l'on survole le lien*/
+.ingredients ul li a:hover{
+    color: blue
+}

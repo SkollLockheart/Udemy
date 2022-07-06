@@ -1,0 +1,32 @@
+button{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    color: orange;
+    /*transition-property modifie une propriété*/
+    transition-property: height;
+    /*transition-duration durée de la transition*/
+    transition-duration: 7s;
+    /*transition-duration délais avant transition*/
+    transition-delay: 10s;
+    /*transition-timing-function effet de la transition*/
+    /*ease-in-out (fondu)*/
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    height: 200px;
+}
+
+
+.image{
+    background-image: url(image.jpg);
+    width: 900px;
+    height: 900px;
+    /*transition tout en une ligne 
+    property/duration/timing-function/delay*/
+    transition: all 5s ease-in-out 2s;
+}
+/*transition de l'image.jpg vers l'imagenb.jpg avec un hover*/
+.image:hover{
+    background-image: url(imagenb.jpg);
+}

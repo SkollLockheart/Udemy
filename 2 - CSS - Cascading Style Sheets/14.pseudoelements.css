@@ -1,0 +1,18 @@
+/*pseudo element "::" permet de sélectionner une seul partie de notre element*/
+/*first-letter sélectionne la 1er lettre*/
+p::first-letter{
+    color: blue;
+}
+/*before se positionne juste avant l'élément*/
+p::before{
+    content: "<<";
+    color: red;
+    display: inline-block;
+}
+/*after se positionne juste après l'élément*/
+p::after{
+    content: ">>";
+    color: green;
+    display: inline-block;
+}
+/*first-letter ne fonctionne pas avec un befor car le before passe en tatn que 1er caractère*/

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Bariolbold";
+    src: url(font/bariolbold.ttf);
+}
+@font-face {
+    font-family: "Bariolthin";
+    src: url(font/bariolthin1.ttf);
+}
+@font-face {
+    font-family: "Bariol";
+    src: url(font/bariol.ttf);
+}
+@font-face {
+    font-family: "Cooper";
+    src: url(font/cooperm.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(white,#b34ef6);
+    min-height: 100vh; /*vh view height*/
+}
+
+/*HEADER*/
+h1{
+    float: left;
+    margin: 10px;
+    font-family: "Bariolbold";
+    clear: both;
+}
+h1 a{
+    text-decoration: none;
+}
+h1 a:visited{
+    color: black;
+}
+h1 a:hover{
+    color: plum;
+}
+nav{
+    float: right;
+    margin-top: 10px;
+    font-family: "Bariolthin";
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color:black
+}
+nav ul li a:hover{
+    color:plum
+}
+
+/*div*/
+
+.about{
+    clear: both;
+    padding-top: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Cooper";
+}
+
+/*svg*/
+
+svg{
+    width: 50%;
+    height: 50%;
+}
+
+.svg{
+    margin-left: 20px;
+}
+
+#coeur{
+    animation-name: coeur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes coeur{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#firework{
+    animation-name: firework;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes firework{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -1,0 +1,8 @@
+.instructions{
+    /*front-size modifie la taille de la police*/
+    font-size: 20px;
+    /*text-transform transforme tout le text*/
+    /*uppercase (majuscule) lowercase (minuscule)*/
+    text-transform: uppercase;
+    font-weight: bold;
+}

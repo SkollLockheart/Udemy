@@ -1,0 +1,65 @@
+DOM Permet d'accéder directement à certain élément de la page html.
+document.firstElementChild == nous affiche le premier elment <html> 
+et ses enfant
+
+    document.firstElementChild
+    <html>
+        <head>...</head>
+        <body>...</body>
+    </html>
+
+ensuite document.firstElementChild.lastElementChild selectionne
+le dernier enfant du bloc html == <body>
+
+    document.firstElementChild.lastElementChild
+    <body>...</body>
+
+et pour finir document.firstElementChild.lastElementChild.firstElementChild
+selectionne le premier enfant de <body> == <h1>Salut</h1>
+
+    document.firstElementChild.lastElementChild.firstElementChild
+    <h1>Salut</h1>
+
+On peut allez rechercher un element directement par son nom
+document.querySelector
+
+    document.querySelector("h1");
+        <h1>Salut</h1>
+
+Et créer une variable pour rapeler cette element
+
+    var titre = document.querySelector("h1);
+
+    Pour ensuite y apporter des modifications
+
+    titre.style.color = "blue";
+    "blue"
+    (Le titre de la page html est passé bleu)
+
+Chaque Element possède des PROPRIETES et des METHODES
+
+Exemple d'un personnage:
+
+    PROPRIETES                  METHODES
+        CouleurDePeau               avance()
+        Age                         goCuisine()
+        Taille                      marche()
+
+
+    GETTER: Pour récuper des valeurs
+        perso.CouleurDePeau; // blanc
+        perso.age; //14
+
+    SETTER: Pour assigner des valeurs
+        perso.age=14;
+        perso.taille=165;
+
+    APPEL DE METHODES
+        perso.avance(); // alors le personnage avance
+
+Exemple concret:
+
+    PROPRIETES                  METHODES
+        innerHTML                   click()
+        style                       setAttribute()
+        lastChild

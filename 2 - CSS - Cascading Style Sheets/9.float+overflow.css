@@ -1,0 +1,27 @@
+img{
+    width: 10%;
+    /*float agencement d'élément*/
+    float: right;
+}
+
+.jeux-liste{
+
+    float: left;
+}
+
+.jeux-contenu{
+    /*clear ne prend pas en compte les autres élément déplacé*/
+    /*both (gauche et droite)*/
+    clear: both;
+}
+
+.poesie{
+    width: 200px;
+    height: 130px;
+    background-color: purple;
+    /*overflow contient le texte dans le bloc*/
+    /*scroll permet de scroll dans le bloc pour lire tout le contenue*/
+    overflow: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}

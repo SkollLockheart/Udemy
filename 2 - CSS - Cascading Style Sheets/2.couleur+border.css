@@ -1,0 +1,45 @@
+body{
+    background-color: #ffeaa7;
+}
+
+h1{
+    color: #0984e3;
+}
+
+.carre1{
+    /*background-color couleur du fond*/
+    background-color: #0984e3;
+    /*width (largeur)*/
+    width: 200px;
+    /*height (hauteur)*/
+    height: 200px;
+    /*border (bordure) type de bordure / couleur / épaisseur */
+    /*solid bordure pleine*/
+    border: solid red 2px;
+}
+.carre2{
+    background-color: #0984e3;
+    width: 200px;
+    height: 200px;
+    /*thin bordure fine*/
+    border: thin red ;
+}
+.carre3{
+    background-color: #0984e3;
+    width: 200px;
+    height: 200px;
+    /*dotted bordure discontnue*/
+    border: dotted red;
+}
+.carre4{
+    background-color: #0984e3;
+    width: 200px;
+    height: 200px;
+    border: solid red 10px;
+    /*border-raduis bord arrondie*/
+    border-radius: 10px;
+}
+
+.carre1 p {
+    color:white
+}

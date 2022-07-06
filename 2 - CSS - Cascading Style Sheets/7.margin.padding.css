@@ -1,0 +1,26 @@
+.div1{
+    width: 300px;
+    height: 400px;
+    background-color: orange;
+    /*margin marge extérieur de l'élément*/
+    /*margin-bottom épaisseur marge du bas*/
+    margin-bottom: 50px;
+    /*margin-left épaisseur marge gauche*/
+    margin-left: 50px;
+    /*padding marge interieur de l'élément*/
+    /*padding-top épaisseur marge du haut*/
+    padding-top: 20px;
+    /*padding-right épaisseur marge de droite*/
+    padding-right: 20px;
+}
+.div2{
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    /*margin applique l'épaisseur dans le sens des aiguilles d'une montre 
+    top/right/bottom/left*/
+    margin: 25px 50px 10px 100px;
+    /*padding applique l'épaisseur sur les 4 coté en même temps*/
+    padding: 30px;
+    
+}

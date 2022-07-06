@@ -1,0 +1,12 @@
+/*Selection en suivant le chemin div/ul/li*/
+div ul li {
+    color: blue
+}
+/*#nomid selectionne l'id nommé*/
+#beurre {
+    color:red
+}
+/*.nomdeclass selectionne la classe nommé*/
+.instructions {
+    color: green
+}

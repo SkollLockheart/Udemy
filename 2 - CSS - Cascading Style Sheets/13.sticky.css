@@ -1,0 +1,11 @@
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav{
+    /*position: sticky la position est relative de basse et fixé une fois hors de la page*/
+    position: sticky;
+    top: 0;
+    background-color: green;
+    height: 50px;
+}

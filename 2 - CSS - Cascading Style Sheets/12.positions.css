@@ -1,0 +1,32 @@
+/*Tout les élément de base son en position static*/
+.fi{
+    /*position: fixed élément fixé a la page peu importe les modification ou les mouvements*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 40px;
+    background-color: aquamarine;
+}
+/*Absolute et relative son toujours dépendant l'un de l'autre*/
+/*La position du relative est en fonxtion du absolute*/
+.conteneur{
+    /*position: relative position relative à l'absolute*/
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.contenu{
+    /*position:absolute position de référence pour le relative*/
+    position: absolute;
+    /*Centrer un contenue avec top50% left50% et un transform: translata(-50%, -50%)*/
+    top: 50%;
+    left: 50%;
+    /*transform modifie l'espace de coordonnées*/
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}

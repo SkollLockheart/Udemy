@@ -1,0 +1,19 @@
+img{ /*image de base unline-block*/
+    width: 30%;
+    /*display modification de l'agencement*/
+    display: block;
+}
+
+h1{ /*titre/paragraph de base en block*/
+    display: inline-block
+}
+
+.ingredients1 ul li{ /*liste de basse en block*/
+    display: inline-block;
+}
+
+.ingredients2 ul li{
+    /*list-style:none retire les points de la liste*/
+    list-style: none;
+    display: block;
+}

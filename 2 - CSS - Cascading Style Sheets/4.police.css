@@ -1,0 +1,16 @@
+/*@font-face pour importer une nouvelle police*/
+@font-face{
+    /*font-family: nomme la nouvelle police*/
+    font-family: "Freshman";
+    /*src: url("") chemin relatif à la nouvelle police*/
+    src : url("fonts/Freshman.ttf")
+}
+
+.instructions{
+    /*font-family: applique une police spécifique*/
+    font-family: Freshman;
+    /*font-weight: poid du font bold(gras)*/
+    font-weight: bold;
+    /*font-style: syle du font*/
+    font-style: italic;
+} 
